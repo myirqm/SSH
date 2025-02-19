@@ -89,7 +89,7 @@ class SSHClient(QMainWindow):
 
         # 创建5个链接标签
         menu_names = ['软件官网 ', '服务器租用', 'TG频道', 'GitHub仓库', '常见问题']
-        menu_links = ['https://xiaobai.irqm.com/', 'https://www.lekuidc.com/', 'http://s3.lekuidc.com', 'http://s4.lekuidc.com', 'http://s5.lekuidc.com']
+        menu_links = ['', '', '', '', '']
         for i, (name, link) in enumerate(zip(menu_names, menu_links)):
             link_label = QLabel(name)
             if i == 0:  # 第一个菜单项（项目介绍）
